@@ -1,14 +1,15 @@
-- file: intro
-- file: content/M00_intro_udea
-- file: content/M01_videos
-  sections:
-    - file: "content/contabilidad"
-    - file: "content/licenciamiento"
-- file: content/M02_videos
-  sections:
-    - file: "content/contabilidad"
-    - file: "content/contabilidad"
-    - file: "content/contabilidad"
-    - file: "content/contabilidad"
-    - file: "content/contabilidad"
 
+format: jb-article
+root: intro
+sections:
+- file: "content/contabilidad"
+  title: PyG
+- file: "content/licenciamiento"
+  title: PCA
+- file: content/contabilidad
+  sections:
+  - file: "content/contabilidad"
+  - file: "content/contabilidad"
+  - file: "content/contabilidad"
+  - file: "content/contabilidad"
+  - file: "content/contabilidad"
